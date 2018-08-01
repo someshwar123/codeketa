@@ -9,3 +9,8 @@
 # Licence:     <your licence>
 #----------------------------------------------------------------------------
 
+a=int(input("enter the input value"))
+sum=0
+for i in range (a):
+    sum=sum+a
+print(sum)
