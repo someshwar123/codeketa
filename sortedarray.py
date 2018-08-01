@@ -15,7 +15,7 @@ for i in range(0, n):
     array.append(x)
     array.sort()
 
-print("the biggest element is",array[n-1])
+print("the sorted element is",array)
 
 
 
