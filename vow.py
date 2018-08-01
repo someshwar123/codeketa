@@ -9,11 +9,11 @@
 # Licence:     <your licence>
 #-------------------------------------------------------------------------------
 
-a = input('Enter a word:')
+a = raw_input("Enter a letter")
 b = a.lower()
 first = b[0]
 
-if len(a) > 0 and a.isalpha():
+if len(a)>0 and a.isalpha():
     if first in 'aeiou':
         print "vowel"
     else:
