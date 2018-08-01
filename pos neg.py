@@ -9,10 +9,10 @@
 # Licence:     <your licence>
 #-------------------------------------------------------------------------------
 
-num= int(input("enter your number"))
-if(num>0):
+n= int(input("enter your number"))
+if(n>0):
     print("positive")
-elif(num==0):
+elif(n==0):
     print("zero")
 else:
     print("negative")
